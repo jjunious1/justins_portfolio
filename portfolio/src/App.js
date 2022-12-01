@@ -1,11 +1,19 @@
-import './App.css'
+import './index.css'
+import { useEffect } from 'react'
+import { scrollToTop } from './utilities/utilities'
+import { RefProvider } from './context/RefContext'
 
 function App() {
+  useEffect(() => {
+    scrollToTop()
+  }, [])
+
   return (
-    <div>
-      <h1>This is working!</h1>
-      <Home />
-    </div>
+    <RefProvider>
+      <div>
+        <h1>This is working!</h1>
+      </div>
+    </RefProvider>
   )
 }
 

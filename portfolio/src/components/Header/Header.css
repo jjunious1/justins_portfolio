@@ -1,0 +1,152 @@
+header {
+  height: 100vh;
+  padding-top: 3rem;
+  overflow: hidden;
+}
+
+.header__container {
+  text-align: center;
+  height: 100%;
+  position: relative;
+}
+
+.header__name {
+  color: var(--color-white);
+  transition: var(--transition)
+}
+
+.header__name:hover {
+  color: var(--color-primary);
+}
+
+.call-to-action {
+  margin-top: 2.5rem;
+  display: flex;
+  gap: 1.2rem;
+  justify-content: center;
+}
+
+.header__socials {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.8rem;
+  position: absolute;
+  left: 0;
+  top: 3rem;
+}
+
+.header__socials::before {
+  content: '';
+  width: 2px;
+  height: 4rem;
+  background: var(--color-primary);
+}
+
+.pfp-container {
+  background: linear-gradient(var(--color-primary), var(--color-primary-alt), transparent);
+  width: 25rem;
+  margin: 4rem auto 0 auto;
+  border-radius: 2rem;
+  overflow: hidden;
+  padding: 2rem 0 0 0;
+  transition: var(--transition);
+}
+
+.pfp {
+  width: 100%;
+}
+
+.pfp-container:hover {
+  transform: scale(1.05);
+}
+
+.scroll__down {
+  font-size: 2rem;
+  position: absolute;
+  right: -2.5rem;
+  bottom: 7.2rem;
+  transform: rotate(90deg);
+  cursor: pointer;
+}
+
+.scroll__down span:nth-child(even) {
+  color: var(--color-light);
+  transition: var(--transition);
+}
+
+.scroll__down span:nth-child(odd) {
+  color: var(--color-primary);
+  transition: var(--transition);
+}
+
+.scroll__down span:hover {
+  color: var(--color-white);
+}
+
+.scroll__down__portfolio {
+  color: var(--color-primary);
+  position: absolute;
+  bottom: 7.4rem;
+  right: -3.75rem;
+}
+
+.scroll__down__portfolio>h3 {
+  transition: var(--transition);
+  color: var(--color-primary);
+}
+
+.scroll__down__portfolio>h3:hover {
+  color: var(--color-white);
+  transform: scale(1.1);
+  transform: translateX(1rem)
+}
+
+@media screen and (max-width: 1024px) {
+
+  .header__socials {
+    left: 0;
+    bottom: 9.2rem;
+  }
+
+  .pfp-container {}
+
+  .scroll__down {
+    bottom: 11.6rem;
+  }
+
+  .scroll__down__portfolio {
+    bottom: 11.7rem;
+    right: -3.5rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+
+  header {
+    height: 90vh;
+  }
+
+  .header__container {
+    margin: -1.5rem auto 0 auto;
+  }
+
+  .call-to-action {
+    margin-top: 1rem;
+    ;
+  }
+
+  .pfp-container {
+    width: 80%;
+    margin: 2rem auto 0 auto;
+  }
+
+  .header__socials,
+  .scroll__down {
+    display: none;
+  }
+
+  .Typewriter {
+    font-size: 1.07rem;
+  }
+}
