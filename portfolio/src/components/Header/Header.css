@@ -47,9 +47,9 @@ header {
   background: linear-gradient(var(--color-primary), var(--color-primary-alt), transparent);
   width: 25rem;
   margin: 4rem auto 0 auto;
-  border-radius: 2rem;
+  border-radius: 7rem 7rem 0 0;
   overflow: hidden;
-  padding: 2rem 0 0 0;
+  padding: 1rem;
   transition: var(--transition);
 }
 

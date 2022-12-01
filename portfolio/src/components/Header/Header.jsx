@@ -3,6 +3,7 @@ import { useContext } from 'react';
 import { RefContext } from '../../context/RefContext';
 import CallToAction from './CallToAction';
 import HeaderSocials from './HeaderSocials';
+import pfp from '../../assets/me-pfp-removebg-preview.png'
 
 const Header = () => {
   const { home, portfolio, contact, scrollTo } = useContext(RefContext);
@@ -18,11 +19,11 @@ const Header = () => {
         />
         <HeaderSocials />
         <div className='pfp-container'>
-          {/* <img
+          <img
             src={pfp}
             className='pfp'
-            alt='austin taylor'
-          /> */}
+            alt='justin junious'
+          />
         </div>
         <div className='scroll__down__container'>
           <div className='scroll__down__portfolio scroll__down'>
