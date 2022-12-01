@@ -7,6 +7,7 @@ import Nav from './components/Nav/Nav'
 import About from './components/About/About'
 import Portfolio from './components/Portfolio/Portfolio'
 import Contact from './components/Contact/Contact'
+import Experience from './components/Experience/Experience'
 
 function App() {
   useEffect(() => {
@@ -19,6 +20,7 @@ function App() {
       <Nav />
       <About />
       <Portfolio />
+      <Experience />
       <Contact />
     </RefProvider>
   )

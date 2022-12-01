@@ -52,7 +52,7 @@ export default function Contact() {
             <h4>LinkedIn</h4>
 
             <a
-              href='https://www.linkedin.com/jjunious1'
+              href='https://www.linkedin.com/in/jjunious'
               target='_blank'
               rel='noopener noreferrer'
             >
