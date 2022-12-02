@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c217e392.css",
+    "main.js": "/static/js/main.b154fc0a.js",
+    "static/media/full.png": "/static/media/full.689dad1b3e3398539a1f.png",
+    "static/media/me-pfp-removebg-preview.png": "/static/media/me-pfp-removebg-preview.f2e81e4cf1ed08a5a8af.png",
+    "static/media/JuniousResume.pdf": "/static/media/JuniousResume.fdc41900f2d29851dabf.pdf",
+    "index.html": "/index.html",
+    "main.c217e392.css.map": "/static/css/main.c217e392.css.map",
+    "main.b154fc0a.js.map": "/static/js/main.b154fc0a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c217e392.css",
+    "static/js/main.b154fc0a.js"
+  ]
+}
